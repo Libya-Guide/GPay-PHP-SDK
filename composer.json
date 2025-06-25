@@ -1,8 +1,14 @@
 {
-    "name": "your-vendor/gpay-api-client",
+    "name": "libyaguide/gpay-api-client",
     "description": "GPay API PHP Client Library for interacting with the GPay Payment API.",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Libya Guide for Information Technology and Training",
+            "email": "info@libyaguide.net"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "GPay\\": "gpay/"
@@ -10,11 +16,7 @@
     },
     "require": {
         "php": ">=7.2"
-    },
-    "authors": [
-        {
-            "name": "Your Name",
-            "email": "your.email@example.com"
-        }
-    ]
+    }
 }
+
+
